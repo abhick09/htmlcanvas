@@ -8,5 +8,5 @@ app.get('/', (req,res)=>{
 });
 
 // Listening to the port
-let PORT = 3000;
+let PORT = 8080;
 app.listen(PORT)
