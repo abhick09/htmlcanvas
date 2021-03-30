@@ -4,7 +4,7 @@ const app = express();
 // route
 app.get('/', (req,res)=>{
   // Sending This is the home page! in the page
-  res.send('This is the home page!');
+  res.send('This is the ci-cd page!');
 });
 
 // Listening to the port
